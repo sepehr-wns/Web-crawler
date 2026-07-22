@@ -442,6 +442,6 @@ func main() {
 	ctx, cancel := context.WithTimeout(context.Background(), 5*time.Minute) // deadline for canceling
 	defer cancel()
 
-	starturl := "https://faradars.org/explore"
+	starturl := "https://coursera.org/courses"
 	CRAWLER.Crawl(ctx, starturl)
 }
